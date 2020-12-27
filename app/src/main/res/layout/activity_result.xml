@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.faza.project.expertsystemai.Activity.ResultActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:text="@string/app_result_name"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_marginTop="@dimen/default_32dp_margin"
+        android:gravity="center"
+        android:text="@string/root"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimary" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_4dp_margin"
+        android:layout_below="@id/tv_title"
+        android:layout_marginEnd="@dimen/default_32dp_margin"
+        android:layout_marginStart="@dimen/default_32dp_margin"
+        android:layout_marginTop="@dimen/default_8dp_margin"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/ll_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="@dimen/default_32dp_margin"
+        android:orientation="vertical"
+        android:padding="@dimen/default_16dp_margin">
+
+        <CheckBox
+            android:id="@+id/cb_result1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:theme="@style/AppTheme.CheckBox" />
+
+        <CheckBox
+            android:id="@+id/cb_result2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_8dp_margin"
+            android:textColor="@color/colorPrimary"
+            android:theme="@style/AppTheme.CheckBox" />
+
+        <CheckBox
+            android:id="@+id/cb_result3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_8dp_margin"
+            android:textColor="@color/colorPrimary"
+            android:theme="@style/AppTheme.CheckBox" />
+
+        <CheckBox
+            android:id="@+id/cb_result4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_8dp_margin"
+            android:textColor="@color/colorPrimary"
+            android:theme="@style/AppTheme.CheckBox" />
+
+        <CheckBox
+            android:id="@+id/cb_result5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_8dp_margin"
+            android:textColor="@color/colorPrimary"
+            android:theme="@style/AppTheme.CheckBox" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_result"
+        android:layout_marginTop="@dimen/default_48dp_margin"
+        android:gravity="center"
+        android:text="@string/result"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimary"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_114dp_margin">114dp</dimen>
+    <dimen name="default_96dp_margin">96dp</dimen>
+    <dimen name="default_80dp_margin">80dp</dimen>
+    <dimen name="default_64dp_margin">64dp</dimen>
+    <dimen name="default_48dp_margin">48dp</dimen>
+    <dimen name="default_32dp_margin">32dp</dimen>
+    <dimen name="default_16dp_margin">16dp</dimen>
+    <dimen name="default_8dp_margin">8dp</dimen>
+    <dimen name="default_4dp_margin">4dp</dimen>
+    <dimen name="default_2dp_margin">2dp</dimen>
+    <dimen name="default_1dp_margin">1dp</dimen>
+</resources>
